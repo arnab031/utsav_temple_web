@@ -12,6 +12,10 @@ const compat = new FlatCompat({
 });
 
 const eslintConfig = [
+  // Ignore build and other generated directories
+  {
+    ignores: ['**/.next/**', '**/node_modules/**', '**/public/**'],
+  },
   ...compat.extends('next/core-web-vitals'), // Extend Next.js core-web-vitals
   {
     plugins: {
