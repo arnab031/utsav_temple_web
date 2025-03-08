@@ -1,8 +1,7 @@
 import { Button } from '@/components/ui/button';
 
 export default function Home() {
-  console.log('Hello world!');
-
+  // console.log('Hello world!');
   return (
     <main>
       <h1 className="text-3xl font-bold underline text-purple-600">
